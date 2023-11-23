@@ -1,0 +1,75 @@
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdf6e3; /* Um tom suave de creme */
+    color: #3a3a3a; /* Cor escura para contraste */
+}
+
+header {
+    background-color: #8b4513; /* Marrom escuro para uma aparência rica */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', serif;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #8b4513; /* Marrom para títulos */
+    text-align: center;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #c19a6b; /* Um marrom claro, elegante para botões */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #a0522d; /* Marrom mais escuro ao passar o mouse */
+}
+
+footer {
+    background-color: #8b4513; /* Marrom escuro, como no cabeçalho */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#menu-final {
+    text-align: center;
+}
+
+.imagem-prato {
+    max-width: 250px; /* Ajuste a largura máxima conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Exibe a imagem em bloco */
+    margin: 10px auto; /* Centraliza a imagem e adiciona uma margem */
+    border-radius: 5px; /* Bordas arredondadas para estética */
+}
